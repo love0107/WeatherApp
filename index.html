@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/c85d70040f.js" crossorigin="anonymous"></script>
+    <title>Weather App</title>
+    <!--CSS-->
+    <style>
+        *{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(89, 192, 158);
+    text-align: center;
+    align-items: center;
+    color:#fff;
+    font-size: xx-large;
+}
+.form{
+    background-color:rgb(71, 165, 134);
+    height:13rem;
+    width: 20rem;
+    margin: 10rem auto;
+    display: inline-block;
+    line-height: 2;
+}
+#cityInput{
+    background-color: rgb(89 192 158);
+    border: none;
+    color:#fff;
+    font-size: x-large;
+    text-align: center;
+}
+.InputButton{
+border-radius: 10px;
+height: 2rem;
+width:6rem;
+border: #fff 1px solid;
+color:rgb(55, 163, 163);
+}
+.InputButton:hover{
+    background-color: aquamarine;
+}
+.ending-text{
+   
+   font-size: .7rem;
+   
+   }
+   .footer-link{
+       margin-top: 10px;
+       color:#fff;
+       padding:0 10px;
+       font-size: .7rem;
+   }
+   .twitter:hover
+   {
+       color:#6ef8f8;
+   }
+   .facebook:hover{
+       color:#4267B2;
+   }
+   .instagram:hover
+   {
+       color:#8a3ab9;
+    }
+    </style>
+
+</head>
+<body>
+    <form action="/" method="post" class="form">
+     <lable for="cityInput">City Name:</lable>
+    <input type="text" name="CityName" id="cityInput">
+    <button type="submit" class="InputButton">Go</button>
+    </form>
+</body>
+<footer>
+    <p class="ending-text">made with ❤️ by lovlesh Baghel.</p> 
+    <a class="footer-link facebook " href="https://www.facebook.com/lovlesh.baghel.3"> <i class="social-icon fab fa-facebook"></i></a>
+    <a class="footer-link twitter " href="https://twitter.com/BaghelLovlesh"> <i class="social-icon fab fa-twitter"></i></a>
+    <a class="footer-link instagram " href="https://www.instagram.com/lovleshbaghel"> <i class="social-icon fab fa-instagram"></i></a>
+</footer> 
+</html>
